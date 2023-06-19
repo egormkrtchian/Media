@@ -1,0 +1,43 @@
+$w: #fff;
+$b: #000;
+$lb: #101010;
+$br: #D87D4A;
+$brh: #fbaf85;
+$g: #F1F1F1;
+$lg: #FAFAFA;
+
+%f_sb_c {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+%f_c_c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%f_co_c {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+// button global
+
+ %button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 48px;
+
+    background: $br;
+    color: $w;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+ }

@@ -1,0 +1,259 @@
+@media (max-width: 768px) {
+    
+    //  main
+    main section {
+       max-width: 709px; 
+    }
+    
+    // header 
+
+    header {
+        padding: 0 calc(50vw - 364px);
+        background-image: url(../images/foto_section/home/home__firstsection_background_tablet.png);
+        // background-size: 768px 658px;
+        background-size: auto;
+        background-position: center;
+        margin-bottom: 96px;
+    }
+    .header_box-button__burger {
+        display: block;
+        order: 1;
+    }
+    .header_box {
+        gap: 42px;
+    }
+    .header_box-button {
+        margin-left: auto;
+    }
+    .header_box-logo,
+    .header_box-button {
+        order: 2;
+    }
+    .header_box-nav {
+        display: none;
+    }
+    
+    // footer
+
+    footer {
+        padding: 0 calc(50vw - 364px) 48px calc(50vw - 364px);
+    }
+
+    .footer_line{
+        margin-bottom: 56px;
+    }
+
+    .footer_box {
+        flex-direction: column;
+        justify-content: start;
+        gap: 32px;
+        align-items: flex-start;
+    }
+
+    .footer_box-navigation {
+        flex-wrap: wrap;
+    }
+
+    .footer_text-text {
+        max-width: 689px;
+        margin-bottom: 80px;
+    }
+        
+    .homefirstsection_box-conteiner {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    .homefirstsection_box-background {
+        display: none;
+    }
+
+    .homefirstsection_box-title,
+    .homefirstsection_box-about {
+        text-align: center;
+    }
+
+   .header .navigation {
+        display: flex;
+    } 
+
+    .navigation {
+        gap: 10px;
+        
+        padding-top: 52px;
+    }
+
+    .navigation_box-conteiner {
+        height: 49px;
+        margin-bottom: 39px;
+    }
+
+    .navigation_box-name {
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 1.07143px;
+    }
+
+    .navigation_box-conteiner {
+        transform: scale(0.825) ;
+
+    }
+
+    .footer_social {
+        bottom: 0;
+    }
+
+    // homesecondsection
+
+    .homesecondsection_first {
+        height: 720px;
+        
+    }
+
+    .homesecondsection_first-foto {
+        background-image: url(../images/foto_section/home/homesecondsection_first_background_tablet.png);
+        background-position: center -288px;
+    }
+
+    .homesecondsection_first-box {        
+        top: 353px;
+        left: 50%;
+        transform: translateX(-50%);
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .homesecondsection_first-title,
+    .homesecondsection_first-text {
+        text-align: center;
+    }
+    
+    .homesecondsection_second {
+        background-size: 761px 527px;
+        background-position: 0 -177px;
+    }
+    .homesecondsection_second-box {
+        width: 268px;
+        padding-left: 62px;
+        
+    }
+
+    .homesecondsection_second-title {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    
+     .homesecondsection_therd {
+        gap: 11px;
+    }
+
+    .homesecondsection_therd-box {
+        padding-left: 62px;
+    }
+
+    .homesecondsection_therd-title {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    // about 
+
+    .about {
+        height: 633px;
+        flex-direction: column;
+        gap: 63px;
+        margin-bottom: 120px;
+    }
+
+
+    .about_conteiner {
+        max-width: 573px;
+        order: 2;
+        margin: 0;
+    }
+
+    .about_conteiner-title {
+        text-align: center;
+    }
+
+    .about_conteiner-text {
+        text-align: center;
+        
+    }
+
+    .about_background {
+        width: 100%;
+        height: 300px;
+        background-image: url(../images/global/about_background_tablet.png);
+    }
+
+    // productdetail 
+
+    .production.productdetail {
+        margin-bottom: 33px;
+    }
+    
+    .gobackbuttom {
+        margin-bottom: 24px;
+    }
+
+    .featuresplusinbox {
+        justify-content: start;
+        flex-wrap: wrap;
+        gap: 0;
+
+        margin-bottom: 120px;
+    }
+
+    .featuresplusinbox_features {
+        margin-bottom: 120px;
+        
+    }
+
+    .featuresplusinbox_inbox {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .featuresplusinbox_inbox-box {
+        min-width: 287px;
+    }
+
+    //  fotoblock
+
+    .fotoblock {
+        gap: 18px;
+    }
+
+    .fotoblock_left {
+        gap: 20px;
+    }
+
+    .fotoblock_left-top,
+    .fotoblock_left-bottom {
+        width: 277px;
+        height: 174px;
+    }
+
+    .fotoblock_right {
+        height: 368px;
+    }
+
+    // alsolike
+
+    .alsolike_title {
+        margin-bottom: 56px;
+    }
+    .alsolike_conteiner {
+        gap: 11px;
+    }
+   
+}
+

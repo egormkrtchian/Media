@@ -1,0 +1,32 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+main,
+footer,
+nav,
+section,
+article,
+div,
+p,
+span,
+body,
+img,
+a,
+button{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+a {
+    all:unset;
+    cursor: pointer;
+}
+button {
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
